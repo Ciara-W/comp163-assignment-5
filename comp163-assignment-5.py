@@ -23,3 +23,14 @@ for i in range(2, n):
           break
 if is_prime:
     print(f"{n} is prime!")
+
+print("=== Challenge 3: Multiplication Table ===")
+
+print("Multiplication Table:")
+print("    1  2  3  4  5  6  7  8  9  10")
+for row in range(1,11):
+    print(f"{row:2}", end="")
+    for column in range(1,11):
+        product = row*column
+        print(f"{product:4}", end="")
+    print()
